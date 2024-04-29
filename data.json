@@ -1,0 +1,242 @@
+{
+    "title": "Historia de Aranjuez",
+    "id_test": "",
+    "description": "Conoce fechas y datos sobre la historia de Aranjuez y sus lugares",
+    "author": "Veronica",
+    "img_feature": {
+        "url": "./img/.jpg",
+        "alt": ""
+    },
+    "questions": [
+        {
+            "id": 1,
+            "question": "¿Cuál fue el periodo de reinado de Isabel II en España?",
+            "answer": {
+                "a": "1833-1868",
+                "b": "1868-1870",
+                "c": "1870-1900",
+                "d": "1900-1904"
+            },
+            "results": {
+                "a": true,
+                "b": false,
+                "c": false,
+                "d": false
+            },
+            "img": {
+                "url": "img/question1.jpg",
+                "alt": "Question 1",
+                "desc": "Reina Isabel II"
+            },
+            "hint": "Isabel nació en 1830",
+            "curiosity": " La muerte de su padre en 1833 convierte a Isabel en Reina de España bajo la regencia de su madre, dada su minoría de edad."
+        },
+        {
+            "id": 2,
+            "question": "¿Qué estilo arquitectónico predomina en el Real Convento de San Pascual Bailón?",
+            "answer": {
+                "a": "Gótico",
+                "b": "Barroco",
+                "c": "Neoclásico",
+                "d": "Modernista"
+            },
+            "results": {
+                "a": false,
+                "b": false,
+                "c": true,
+                "d": false
+            },
+            "img": {
+                "url": "img/question2.jpg",
+                "alt": "Question 2",
+                "desc": "Real Convento de San Pascual Bailón"
+            },
+            "hint": "Reacciona contra los efectos decorativos del barroco y el rococó",
+            "curiosity": "En un principio fue un convento franciscano aunque, tras la desamortización y por deseo de la reina Isabel II, fue ocupado desde 1858 por monjas concepcionistas."
+        },
+        {
+            "id": 3,
+            "question": "¿Cuál fue el nombre completo de Isabel II?",
+            "answer": {
+                "a": "María Isabel Cristina  de Borbón",
+                "b": "María Isabel Luisa de Borbón",
+                "c": "Isabel Antonia Luisa de Borbón",
+                "d": "Luisa Maria Isabel  de Borbón"
+            },
+            "results": {
+                "a": false,
+                "b": true,
+                "c": false,
+                "d": false
+            },
+            "img": {
+                "url": "img/question3.jpg",
+                "alt": "Question 3",
+                "desc": "Reina Isabel II"
+            },
+            "hint": "Isabel II recibió en el bautismo los nombres de María Isabel Luisa",
+            "curiosity": "Hija de Fernando VII de España, llamado «el Deseado» y María Cristina de Borbón-Dos Sicilias"
+        },
+        {
+            "id": 4,
+            "question": "¿Dónde se encuentra ubicada la Fuente de la Mariblanca?",
+            "answer": {
+                "a": "Plaza de la Constitución",
+                "b": "Plaza de San Antonio",
+                "c": "Plaza de Parejas",
+                "d": "Plaza de Toros"
+            },
+            "results": {
+                "a": false,
+                "b": true,
+                "c": false,
+                "d": false
+            },
+            "img": {
+                "url": "img/question4.jpg",
+                "alt": "Question 4",
+                "desc": "Fuente de la Mariblanca"
+            },
+            "hint": "Está cerca de la Iglesia de San Antonio de Padua",
+            "curiosity": "Se trata de una plaza que contuvo en origen otra fuente diferente con una estatua de Fernando VI de Borbón, que miraba hacia el puente del río Tajo, recibiendo así al visitante."
+        },
+        {
+            "id": 5,
+            "question": "¿Quién fue el arquitecto principal del Palacio Real de Aranjuez?",
+            "answer": {
+                "a": "Juan de Herrera",
+                "b": "Juan Bautista de Toledo",
+                "c": "Francesco Sabatini",
+                "d": "Filippo Juvarra"
+            },
+            "results": {
+                "a": false,
+                "b": true,
+                "c": false,
+                "d": false
+            },
+            "img": {
+                "url": "img/question5.jpg",
+                "alt": "Question 5",
+                "desc": "Palacio Real de Aranjuez"
+            },
+            "hint": "El arquitecto principal murió durante su construcción, por lo que su discípulo Juan de Herrera fue el encargado de rematar la obra.",
+            "curiosity": "Es conocido por haber dado las trazas generales para la construcción del Real Monasterio de El Escorial, su obra magna."
+        },
+        {
+            "id": 6,
+            "question": "¿Cuál de estos monarcas no tuvo un papel importante en la historia de Aranjuez?",
+            "answer": {
+                "a": "Felipe II",
+                "b": "Felipe III",
+                "c": "Felipe IV",
+                "d": "Felipe V"
+            },
+            "results": {
+                "a": false,
+                "b": false,
+                "c": false,
+                "d": true
+            },
+            "img": {
+                "url": "img/question6.jpg",
+                "alt": "Question 6",
+                "desc": "Retrato de Felipe V"
+            },
+            "hint": "Durante su reinado se amplió y reformó notablemente el palacio de Aranjuez.",
+            "curiosity": "Fue el fundador de organismos culturales tan prestigiosos como la Real Academia Española y la Real Academia de la Historia, "
+        },
+        {
+            "id": 7,
+            "question": "¿Qué importante evento histórico tuvo lugar en Aranjuez en 1808?",
+            "answer": {
+                "a": "La abdicación de Carlos IV",
+                "b": "La Batalla de Aranjuez",
+                "c": "El levantamiento del Dos de Mayo",
+                "d": "La coronación de Fernando VII"
+            },
+            "results": {
+                "a": true,
+                "b": false,
+                "c": false,
+                "d": false
+            },
+            "img": {
+                "url": "img/question7.jpg",
+                "alt": "Motín de Aranjuez",
+                "desc": "Motín de Aranjuez"
+            },
+            "hint": "Sucedió a causa del Motín de Aranjuez",
+            "curiosity": "El motín de Aranjuez fue una revuelta popular, respaldada por el príncipe de Asturias, Fernando VII, entre el 17 y el 19 de marzo de 1808, provocada por la situación de España tras las guerras europeas y la crisis del absolutismo, y dirigida principalmente contra Manuel Godoy."
+        },
+        {
+            "id": 8,
+            "question": "¿Cuál de los siguientes escritores estuvo inspirado por Aranjuez en alguna de sus obras?",
+            "answer": {
+                "a": "Miguel de Cervantes",
+                "b": "Benito Pérez Galdós",
+                "c": "Federico García Lorca",
+                "d": "Pedro Calderón de la Barca"
+            },
+            "results": {
+                "a": false,
+                "b": true,
+                "c": false,
+                "d": false
+            },
+            "img": {
+                "url": "img/question8.jpg",
+                "alt": "Question 8",
+                "desc": "Portada de libro"
+            },
+            "hint": "En la serie de los 'Episodios Nacionales', el autor describe escenas y situaciones que tienen lugar en Aranjuez.",
+            "curiosity": "Galdós utilizó Aranjuez como telón de fondo para algunos de los eventos de la trama y describió la belleza y la atmósfera de esta localidad histórica en su narrativa."
+        },
+        {
+            "id": 9,
+            "question": "¿Qué rey español ordenó la construcción del famoso Jardín del Príncipe en Aranjuez?",
+            "answer": {
+                "a": "Felipe II",
+                "b": "Felipe III",
+                "c": "Fernando VI",
+                "d": "Carlos III"
+            },
+            "results": {
+                "a": false,
+                "b": false,
+                "c": false,
+                "d": true
+            },
+            "img": {
+                "url": "img/question9.jpg",
+                "alt": "Question 9",
+                "desc": "Entrada Jardín del Príncipe"
+            },
+            "hint": "A lo largo del siglo XVIII los Reyes de España renovaron el Real Sitio de Aranjuez, enriqueciéndolo con el Jardín del Príncipe.",
+            "curiosity": "Carlos III pasó a la historia como un monarca reformista, ilustrado e implicado en los problemas de su reino."
+        },
+        {
+            "id": 10,
+            "question": "¿Qué tratado histórico fue firmado en Aranjuez en 1752 entre España y Portugal?",
+            "answer": {
+                "a": "Tratado de Aranjuez",
+                "b": "Tratado de Tordesillas",
+                "c": "Tratado de Utrecht",
+                "d": "Tratado de Madrid"
+            },
+            "results": {
+                "a": false,
+                "b": false,
+                "c": false,
+                "d": true
+            },
+            "img": {
+                "url": "img/question10.jpg",
+                "alt": "Question 10",
+                "desc": "Mapa de Tratado de límites de 1750"
+            },
+            "hint": "Tratado de Límites de 1750",
+            "curiosity": "Se hizo un reparto sobre las tierras de América del sur"
+        }
+    ]
+}

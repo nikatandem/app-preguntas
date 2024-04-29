@@ -1,0 +1,116 @@
+form {
+  width: 70%;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Estilo para el título del formulario */
+form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Estilo para las preguntas */
+.question {
+  margin-bottom: 20px;
+}
+
+/* Estilo para el texto de las preguntas */
+.question p {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Estilo para las opciones de respuesta */
+.question div {
+  margin-bottom: 10px;
+}
+
+/* Estilo para las etiquetas de las opciones */
+.question label {
+  display: block;
+  margin-left: 10px;
+  font-weight: normal;
+}
+
+/* Estilo para los radio buttons */
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+/* Estilo para los radio buttons seleccionados */
+input[type="radio"]:checked + label {
+  color: #00bcd4;
+}
+
+/* Estilo para el botón de enviar */
+.send{
+  display: inline;
+  width: auto;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #00bcd4;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+/* Estilo para el botón de enviar al pasar el mouse */
+.send:hover {
+  background-color: #018796;
+}
+
+/* Estilo para el mensaje de error */
+.error-message {
+  color: #f44336;
+  margin-top: 10px;
+}
+
+img{
+  width: 300px;
+  height: auto;
+}
+
+.next{
+  position: fixed;
+  bottom: 20px; /* Ajusta la distancia desde la parte inferior según tus necesidades */
+  right: 10px; /* Ajusta la distancia desde el borde derecho según tus necesidades */
+  justify-content: center;
+  width: auto;
+  padding: 10px;
+  background-color: #d47c00;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.prev{
+  position: fixed;
+  bottom: 20px; /* Ajusta la distancia desde la parte inferior según tus necesidades */
+  left: 10px; /* Ajusta la distancia desde el borde derecho según tus necesidades */
+  justify-content: center;
+  width: auto;
+  padding: 10px;
+  background-color: #d47c00;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-root:hover {
+  background-color: #935703;
+}
