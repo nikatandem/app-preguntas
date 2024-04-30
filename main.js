@@ -10,6 +10,7 @@ fetch('./data.json')
   .then((data) => {
     // Llama a la función pregunta y pasa los datos
     pregunta(data.questions);
+   
   })
   .catch((err) => {
     console.error(err);
@@ -50,20 +51,20 @@ function crearQuestion(question) {
     <p>${question.id}. ${question.question}</p>
     <img src="${question.img.url}" alt="${question.img.alt}"> <button class="hint" onclick="alert('${question.hint}')"><i class="bi bi-question-circle-fill"></i></button>
     <div>
-      <label>${question.answer.a}</label>
-      <input type='radio' value='a'>
+      <label>${question.answer.a[0]}</label>
+      <input type='radio' value='${question.answer.a[1]}'>
     </div>
     <div>
-      <label>${question.answer.b}</label>
-      <input type='radio' value='b'>
+      <label>${question.answer.b[0]}</label>
+      <input type='radio' value='${question.answer.b[1]}'>
     </div>
     <div>
-      <label>${question.answer.c}</label>
-      <input type='radio' value='c'>
+      <label>${question.answer.c[0]}</label>
+      <input type='radio' value='${question.answer.c[1]}'>
     </div>
     <div>
-      <label>${question.answer.d}</label>
-      <input type='radio' value='d'>
+      <label>${question.answer.d[0]}</label>
+      <input type='radio' value='${question.answer.d[1]}'>
     </div>
     <button class="send">Responder</button>
   `;
@@ -76,6 +77,17 @@ function crearQuestion(question) {
     const selectedAnswer = div.querySelector('input[type="radio"]:checked').value;
     checkAnswer(selectedAnswer, question);
   });
+    // Agregar evento de clic a los botones de radio para deseleccionar las otras opciones
+    const radioButtons = div.querySelectorAll('input[type="radio"]');
+    radioButtons.forEach(radioButton => {
+      radioButton.addEventListener('click', function() {
+        radioButtons.forEach(rb => {
+          if(rb !== radioButton) {
+            rb.checked = false;
+          }
+        });
+      });
+    });
 
   return div;
 }

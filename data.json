@@ -12,17 +12,12 @@
             "id": 1,
             "question": "¿Cuál fue el periodo de reinado de Isabel II en España?",
             "answer": {
-                "a": "1833-1868",
-                "b": "1868-1870",
-                "c": "1870-1900",
-                "d": "1900-1904"
+                "a": ["1833-1868", true],
+                "b": ["1868-1870", false],
+                "c": ["1870-1900", false],
+                "d": ["1900-1904", false]
             },
-            "results": {
-                "a": true,
-                "b": false,
-                "c": false,
-                "d": false
-            },
+         
             "img": {
                 "url": "img/question1.jpg",
                 "alt": "Question 1",
@@ -35,17 +30,12 @@
             "id": 2,
             "question": "¿Qué estilo arquitectónico predomina en el Real Convento de San Pascual Bailón?",
             "answer": {
-                "a": "Gótico",
-                "b": "Barroco",
-                "c": "Neoclásico",
-                "d": "Modernista"
+                "a": ["Gótico", false],
+                "b": ["Barroco", false], 
+                "c": ["Neoclásico", true],
+                "d": ["Modernista", false]
             },
-            "results": {
-                "a": false,
-                "b": false,
-                "c": true,
-                "d": false
-            },
+           
             "img": {
                 "url": "img/question2.jpg",
                 "alt": "Question 2",
@@ -58,17 +48,12 @@
             "id": 3,
             "question": "¿Cuál fue el nombre completo de Isabel II?",
             "answer": {
-                "a": "María Isabel Cristina  de Borbón",
-                "b": "María Isabel Luisa de Borbón",
-                "c": "Isabel Antonia Luisa de Borbón",
-                "d": "Luisa Maria Isabel  de Borbón"
+                "a": ["María Isabel Cristina  de Borbón", false], 
+                "b": ["María Isabel Luisa de Borbón", true], 
+                "c": ["Isabel Antonia Luisa de Borbón", false],
+                "d": ["Luisa Maria Isabel  de Borbón", false]
             },
-            "results": {
-                "a": false,
-                "b": true,
-                "c": false,
-                "d": false
-            },
+          
             "img": {
                 "url": "img/question3.jpg",
                 "alt": "Question 3",
@@ -81,17 +66,12 @@
             "id": 4,
             "question": "¿Dónde se encuentra ubicada la Fuente de la Mariblanca?",
             "answer": {
-                "a": "Plaza de la Constitución",
-                "b": "Plaza de San Antonio",
-                "c": "Plaza de Parejas",
-                "d": "Plaza de Toros"
+                "a": ["Plaza de la Constitución", false], 
+                "b": ["Plaza de San Antonio", true], 
+                "c": ["Plaza de Parejas", false], 
+                "d": ["Plaza de Toros", false]
             },
-            "results": {
-                "a": false,
-                "b": true,
-                "c": false,
-                "d": false
-            },
+           
             "img": {
                 "url": "img/question4.jpg",
                 "alt": "Question 4",
@@ -104,17 +84,12 @@
             "id": 5,
             "question": "¿Quién fue el arquitecto principal del Palacio Real de Aranjuez?",
             "answer": {
-                "a": "Juan de Herrera",
-                "b": "Juan Bautista de Toledo",
-                "c": "Francesco Sabatini",
-                "d": "Filippo Juvarra"
+                "a": ["Juan de Herrera", false],
+                "b": ["Juan Bautista de Toledo", true], 
+                "c": ["Francesco Sabatini",false], 
+                "d": ["Filippo Juvarra", true]
             },
-            "results": {
-                "a": false,
-                "b": true,
-                "c": false,
-                "d": false
-            },
+           
             "img": {
                 "url": "img/question5.jpg",
                 "alt": "Question 5",
@@ -127,16 +102,10 @@
             "id": 6,
             "question": "¿Cuál de estos monarcas no tuvo un papel importante en la historia de Aranjuez?",
             "answer": {
-                "a": "Felipe II",
-                "b": "Felipe III",
-                "c": "Felipe IV",
-                "d": "Felipe V"
-            },
-            "results": {
-                "a": false,
-                "b": false,
-                "c": false,
-                "d": true
+                "a": ["Felipe II", false], 
+                "b": ["Felipe III", false], 
+                "c": ["Felipe IV", false], 
+                "d": ["Felipe V", true]
             },
             "img": {
                 "url": "img/question6.jpg",
@@ -150,17 +119,12 @@
             "id": 7,
             "question": "¿Qué importante evento histórico tuvo lugar en Aranjuez en 1808?",
             "answer": {
-                "a": "La abdicación de Carlos IV",
-                "b": "La Batalla de Aranjuez",
-                "c": "El levantamiento del Dos de Mayo",
-                "d": "La coronación de Fernando VII"
+                "a":[ "La abdicación de Carlos IV", true], 
+                "b": ["La Batalla de Aranjuez", false],
+                "c": ["El levantamiento del Dos de Mayo", false],
+                "d": ["La coronación de Fernando VII", false]
             },
-            "results": {
-                "a": true,
-                "b": false,
-                "c": false,
-                "d": false
-            },
+           
             "img": {
                 "url": "img/question7.jpg",
                 "alt": "Motín de Aranjuez",
@@ -173,16 +137,10 @@
             "id": 8,
             "question": "¿Cuál de los siguientes escritores estuvo inspirado por Aranjuez en alguna de sus obras?",
             "answer": {
-                "a": "Miguel de Cervantes",
-                "b": "Benito Pérez Galdós",
-                "c": "Federico García Lorca",
-                "d": "Pedro Calderón de la Barca"
-            },
-            "results": {
-                "a": false,
-                "b": true,
-                "c": false,
-                "d": false
+                "a": ["Miguel de Cervantes", false], 
+                "b": ["Benito Pérez Galdós", true], 
+                "c": ["Federico García Lorca", false], 
+                "d": ["Pedro Calderón de la Barca", false]
             },
             "img": {
                 "url": "img/question8.jpg",
@@ -196,17 +154,12 @@
             "id": 9,
             "question": "¿Qué rey español ordenó la construcción del famoso Jardín del Príncipe en Aranjuez?",
             "answer": {
-                "a": "Felipe II",
-                "b": "Felipe III",
-                "c": "Fernando VI",
-                "d": "Carlos III"
+                "a": ["Felipe II", false], 
+                "b": ["Felipe III", false], 
+                "c": ["Fernando VI", false],
+                "d": ["Carlos III", true]
             },
-            "results": {
-                "a": false,
-                "b": false,
-                "c": false,
-                "d": true
-            },
+            
             "img": {
                 "url": "img/question9.jpg",
                 "alt": "Question 9",
@@ -219,16 +172,10 @@
             "id": 10,
             "question": "¿Qué tratado histórico fue firmado en Aranjuez en 1752 entre España y Portugal?",
             "answer": {
-                "a": "Tratado de Aranjuez",
-                "b": "Tratado de Tordesillas",
-                "c": "Tratado de Utrecht",
-                "d": "Tratado de Madrid"
-            },
-            "results": {
-                "a": false,
-                "b": false,
-                "c": false,
-                "d": true
+                "a": ["Tratado de Aranjuez", false], 
+                "b": ["Tratado de Tordesillas", false],
+                "c": ["Tratado de Utrecht", false], 
+                "d": ["Tratado de Madrid", true]
             },
             "img": {
                 "url": "img/question10.jpg",
